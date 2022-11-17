@@ -1,29 +1,4 @@
-# Binar Challange 5 - Car Rent System
-
-## Feature
-
-- Create API for insert new car data
-- Create API for update car data
-- Create API for delete car data
-- Create API for show all cars data
-- Create view to show all cars
-- Create form to add or edit a car data
-
-## Database Structure
-
-<h1>Entity Relationhip Diagram<h1>
-
-(https://user-images.githubusercontent.com/79560466/194763416-8d8255f1-2629-4ce7-8a51-71bedb6ea851.png)
-
-| Column    | Type                     |
-| --------- | ------------------------ |
-| id        | integer                  |
-| name      | character(255)           |
-| price     | float                    |
-| size      | character(255)           |
-| foto      | character(255)           |
-| createdAt | timestamp with time zone |
-| updatedAt | timestamp with time zone |
+# Binar Challange 5 - Car Rent Backend App
 
 ## How Run APP
 
@@ -49,6 +24,34 @@
 
 ```properties
     yarn dev
+    
+<!--  -->
+
+## Database Structure
+
+<h1>Entity Relationhip Diagram<h1>
+
+(https://user-images.githubusercontent.com/79560466/194763416-8d8255f1-2629-4ce7-8a51-71bedb6ea851.png)
+
+| Column    | Type                     |
+| --------- | ------------------------ |
+| id        | integer                  |
+| name      | character(255)           |
+| price     | float                    |
+| size      | character(255)           |
+| foto      | character(255)           |
+| createdAt | timestamp with time zone |
+| updatedAt | timestamp with time zone |
+
+
 ```
+## Feature
+
+- Create API for insert new car data
+- Create API for update car data
+- Create API for delete car data
+- Create API for show all cars data
+- Create view to show all cars
+- Create form to add or edit a car data
 
 <!--  -->
