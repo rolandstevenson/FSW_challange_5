@@ -23,8 +23,8 @@
 4. Run the server.
 
 ```properties
-    yarn dev
-    
+    yarn dev or yarn watch
+
 <!--  -->
 
 ## Database Structure
@@ -45,6 +45,7 @@
 
 
 ```
+
 ## Feature
 
 - Create API for insert new car data
