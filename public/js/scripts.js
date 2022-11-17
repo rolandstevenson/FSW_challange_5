@@ -1,4 +1,4 @@
-const port = 8080;
+const port = 3001;
 
 const model = document.querySelector(".model");
 const model_close = document.querySelector(".delete-cancel");
@@ -141,10 +141,7 @@ const renderData = (cars) => {
 };
 
 const render_size = (size, btn) => {
-  const url =
-    size.toLowerCase() !== "all"
-      ? `http://localhost:${port}/api/filter/${size}`
-      : `http://localhost:${port}/api/cars`;
+  const url = size.toLowerCase() !== "all" ? `http://localhost:${port}/api/filter/${size}` : `http://localhost:${port}/api/cars`;
   btn.addEventListener("click", () => {
     dashboard_container.innerHTML = "";
     fetch(url)
