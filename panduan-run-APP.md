@@ -1,6 +1,4 @@
-# Binar Challange 5 - Car Rent Backend App
-
-## How Run APP
+## How to Run APP
 
 1. install all required dependencies with command
 
